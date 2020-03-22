@@ -1,9 +1,9 @@
 import wikipedia
 import time
 
-print("---------------------------------")
-print("|WELCOME TO MAD LIBS JR. Ver.1.0|")
-print("---------------------------------")
+print("----------------------------------")
+print("|WELCOME TO MAD LIBS JR. Ver. 1.0|")
+print("----------------------------------")
 #Displays a welcome Banner for the game to the console.
 time.sleep(5) #Using the time function gives the user a chance to read content printed to the console.
 #To expand upon this game, prompt the user to create their own username for the game. 
@@ -17,7 +17,7 @@ if answer == "Y":
 elif answer == "N":
     print("Awesome! Let's dive right in.")
 else:
-    print("Please enter Y for yes, or N for no: ")
+    print("Please enter Y for yes, or N for no: ") #This can be improved to continuously prompt the user for the correct input. 
 time.sleep(5)
 print("\n")
 
